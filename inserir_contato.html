@@ -77,23 +77,37 @@
     </nav>
     
     <div class="container">
-      <div class="table-responsive">
-        <table class="table table-striped">
-          
-          <tr>
-            <th>Nome</th>
-            <th></th>
-          </tr>
+      <div class="form-group">
+        <div class="row">
+          <div class="col-md-4">
+            <label>Nome</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-2">
+            <label>Telefone</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-4">
+            <label>E-mail</label>
+            <input type="text" class="form-control">
+          </div>
+        </div>
 
-          <tr>
-            <td>Editoras</td>
-            <td>
-              <input type="submit" value="Editar" class="btn btn-md btn-success">
-              <input type="submit" value="Excluir" class="btn btn-md btn-danger">
-            </td>
-          </tr>
+        <br>
 
-        </table>
+        <div class="row">
+          <div class="col-md-2">
+            <input type="submit" value="Adicionar Telefone" class="btn btn-primary btn-block">
+          </div>
+
+           <div class="col-md-2">
+            <input type="submit" value="Adicionar E-mail" class="btn btn-primary btn-block">
+          </div>
+
+           <div class="col-md-2 col-md-offset-4">
+            <input type="submit" value="Salvar Contato" class="btn btn-success btn-block">
+          </div>
+        </div>
       </div>
     </div>
 

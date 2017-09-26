@@ -77,23 +77,38 @@
     </nav>
     
     <div class="container">
-      <div class="table-responsive">
-        <table class="table table-striped">
-          
-          <tr>
-            <th>Nome</th>
-            <th></th>
-          </tr>
+      <div class="row">
+        <div class="col-md-offset-7 col-md-3 form-group">
+          <label>Pesquisar Contato</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-md-2"><br>
+          <input type=submit value="Buscar" class="btn btn-primary btn-block">
+        </div>
+      </div>
 
-          <tr>
-            <td>Editoras</td>
-            <td>
-              <input type="submit" value="Editar" class="btn btn-md btn-success">
-              <input type="submit" value="Excluir" class="btn btn-md btn-danger">
-            </td>
-          </tr>
+      <div class="row">
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <tr>
+              <th>Nome</th>
+              <th>Telefone</th>
+              <th>E-mail</th>
+              <th></th>
+            </tr>
 
-        </table>
+            <tr>
+              <td>Carlos Araújo</td>
+              <td>(22)99999-9999</td>
+              <td>carlos_araujo@gmail.com</td>
+              <td>
+                <input type="submit" value ="Editar" class="btn btn-primary">
+                <input type="submit" value ="Excluir" class="btn btn-danger">
+              </td>
+            </tr>
+
+          </table>
+        </div>
       </div>
     </div>
 
